@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Astronauts</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Astronauts</h1>
+    <div id="container">
+        <!-- List of astronauts will be added here dynamically -->
+        <!-- Using a traditional loop to display astronauts -->
+        <div class="astronaut">
+            <div class="bio">
+                <!-- <h3>{{ astronaut.firstName }} {{ astronaut.lastName }}</h3>
+                <ul>
+                    <li>Hours in space: {{ astronaut.hoursInSpace }}</li>
+                    <li>Active: {{ astronaut.active }}</li>
+                    <li>Skills: {{ astronaut.skills|join(', ') }}</li>
+                </ul> -->
+            </div>
+            <img class="avatar" src="{{ astronaut.picture }}">
+        </div>
+      
+    </div>
+  </body>
+</html>
